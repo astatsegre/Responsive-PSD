@@ -1,0 +1,54 @@
+@media screen and (min-width: 979px) {
+    body {
+        font-size: 33.69px;
+        line-height: 33.69px;
+    }
+    
+    .main-nav-header {
+        display: none;
+    }
+    
+    .main-nav-list {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        width: 29.091em;
+        background-color: #373c3f;
+        padding-top: 1.303em;
+        padding-bottom: 1.364em;
+        padding-left: 1.606em;
+    }
+    
+    .main-nav-list li {
+        display: inline-block;
+    }
+    
+    .main-nav-list a {
+        height: auto;
+        width: auto;
+        line-height: 1em;
+        border: 0;
+        font-size: 0.56em;
+        margin-right: 0.909em;
+    }
+    
+    .photo-1,
+    .photo-2,
+    .photo-3 {
+        float: left;
+        width: 9.69em;
+        height: 8.515em;
+    }
+    
+    .photo-1 {
+        background: url(../img/980/photo-1.jpg) no-repeat;
+    }
+    
+    .photo-2 {
+        background: url(../img/980/photo-2.jpg) no-repeat;
+    }
+    
+    .photo-3 {
+        background: url(../img/980/photo-3.jpg) no-repeat;
+    }
+}
