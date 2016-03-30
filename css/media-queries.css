@@ -1,4 +1,6 @@
-@media screen and (min-width: 979px) {
+
+
+@media screen and (min-width: 980px) {
     body {
         font-size: 33.69px;
         line-height: 33.69px;
@@ -34,7 +36,10 @@
     
     .photo-1,
     .photo-2,
-    .photo-3 {
+    .photo-3,
+    .photo-4,
+    .photo-5,
+    .photo-6 {
         float: left;
         width: 9.69em;
         height: 8.515em;
@@ -50,5 +55,36 @@
     
     .photo-3 {
         background: url(../img/980/photo-3.jpg) no-repeat;
+    }
+    
+    .photo-4 {
+        background: url(../img/980/photo-4.jpg) no-repeat;
+    }
+    
+    .photo-5 {
+        background: url(../img/980/photo-5.jpg) no-repeat;
+    }
+    
+    .photo-6 {
+        background: url(../img/980/photo-6.jpg) no-repeat;
+    }
+    
+    .mobile-gallery-container {
+        display: none;
+    }
+    
+    .desctop-gallery-container {
+        display: block;
+        height: 8.400em;
+        width: 29.089em;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .photo-container {
+        display: absolute;
+        width: 10000px;
+        left: 0;
+        top: 0;
     }
 }

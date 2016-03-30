@@ -227,6 +227,28 @@ body {
     background: url(../img/img-3.jpg) no-repeat;
 }
 
+.photo-4 {
+    width: 100%;
+    height: 25em;
+    background: url(../img/img-4.jpg) no-repeat;
+}
+
+.photo-5 {
+    width: 100%;
+    height: 25em;
+    background: url(../img/img-5.jpg) no-repeat;
+}
+
+.photo-6 {
+    width: 100%;
+    height: 25em;
+    background: url(../img/img-6.jpg) no-repeat;
+}
+
+.desctop-gallery-container {
+    display: none;
+}
+
 .site-description b {
     font-size: 1.364em;
     font-weight: 500;
