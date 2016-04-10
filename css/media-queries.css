@@ -81,10 +81,85 @@
         overflow: hidden;
     }
     
+/*
+    .desctop-gallery-container::before {
+        content: "\e802";
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+        position: absolute;
+        top: 1.2em;
+        left: 0.13em;
+        font-size: 3em;
+        color: #e1dddd;
+        opacity: 0.5
+    }
+    
+    .desctop-gallery-container:hover::before {
+        opacity: 0.9;
+        text-shadow: 0 0 10px rgba(9,147,171,0.7);
+    }
+    
+    .desctop-gallery-container::after {
+        content: "\e801";
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+        position: absolute;
+        top: 1.2em;
+        right: 0.13em;
+        font-size: 3em;
+        color: #e1dddd;
+        opacity: 0.5
+    }
+    
+    .desctop-gallery-container:hover::after{
+        opacity: 0.9;
+        text-shadow: 0 0 10px rgba(9,147,171,0.7);
+    }
+*/
+    
     .photo-container {
         display: absolute;
         width: 10000px;
         left: 0;
         top: 0;
+        margin-left: 0px;
+    }
+    
+    button {
+        position: absolute;
+        background: 0;
+        color: #e1dddd;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+        width: 1em;
+        border: 0;
+        opacity: 0.5;
+    }
+    
+    .btn-left {
+        top: 0.8em;
+        left: 0;
+        margin-left: -0.3em
+    }
+    
+    .btn-right {
+        top: 0.8em;
+        right: 0;
+        width: 0.4em;
+        margin-right: 0.3em
+    }
+    
+    button:focus {
+        outline: 0;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        opacity: 1;
     }
 }
